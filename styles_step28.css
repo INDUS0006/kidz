@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kidz Nova Playgroup & Preschool | Unique Modern Early Learning Academy</title>
+  <meta name="description" content="Kidz Nova Playgroup & Preschool provides an inspiring, safe, and modern early learning environment for toddlers aged 1.5 to 5.5 years. Interactive Montessori learning, sensory play, and certified educators." />
+  <meta name="keywords" content="playgroup school, preschool, nursery, daycare, early learning, montessori, toddler school" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-theme="light">
+
+  <!-- Animated Background Blobs -->
+  <div class="bg-blob-container" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="navbar" id="topNav">
+    <div class="nav-container">
+      <a href="#" class="brand-logo" id="brandLogo">
+        <div class="brand-icon">🎈</div>
+        <div class="brand-name">Kidz<span>Nova</span></div>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link active">About Us</a></li>
+          <li><a href="#programs" class="nav-link">Programs</a></li>
+          <li><a href="#playground" class="nav-link">Kids Zone</a></li>
+          <li><a href="#facilities" class="nav-link">Campus</a></li>
+          <li><a href="#calculator" class="nav-link">Fee Estimator</a></li>
+          <li><a href="#admissions" class="nav-link">Admissions</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="soundToggle" title="Toggle Sound Effects" aria-label="Toggle Sound Effects">🔊</button>
+        <button class="icon-btn" id="themeToggle" title="Toggle Dark/Light Mode" aria-label="Toggle Dark/Light Mode">🌙</button>
+        <a href="#admissions" class="btn-primary" id="headerCtaBtn">
+          <span>Apply Now</span>
+          <span>✨</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="about">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="badge-tag badge-coral">
+              <span>🚀</span>
+              <span>Admissions Open for Academic Year 2026–2027</span>
+            </div>
+            <h1 class="hero-title">
+              Where Little <span class="highlight-coral">Curious Minds</span> Take Their <span class="highlight-purple">First Giant Leap</span>
+            </h1>
+            <p class="hero-description">
+              Welcome to Kidz Nova Playgroup! We combine Montessori sensory play, STEM wonder labs, and warm nurturing care to give your toddler the ultimate foundation for lifelong happiness and academic success.
+            </p>
+            <div class="hero-cta-group">
+              <a href="#admissions" class="btn-primary" id="heroTourBtn">
+                <span>Book a Campus Tour</span>
+                <span>🏫</span>
+              </a>
+              <a href="#playground" class="btn-secondary" id="heroPlaygroundBtn">
+                <span>Try Kids Interactive Zone</span>
+                <span>🎨</span>
+              </a>
+            </div>
+
+            <div class="hero-stats-row">
+              <div class="stat-item">
+                <div class="stat-icon" style="background: #FFF0F0; color: var(--coral-red);">👶</div>
+                <div>
+                  <div class="stat-val">1.5 - 5.5</div>
+                  <div class="stat-label">Years Age Range</div>
+                </div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon" style="background: #F0EDFF; color: var(--royal-purple);">👩‍🏫</div>
+                <div>
+                  <div class="stat-val">1 : 6</div>
+                  <div class="stat-label">Teacher-Toddler Ratio</div>
+                </div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon" style="background: #ECFDF5; color: #10B981;">🛡️</div>
+                <div>
+                  <div class="stat-val">100%</div>
+                  <div class="stat-label">Live CCTV Safe Campus</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <div class="hero-image-card">
+              <img src="assets/hero.jpg" alt="Toddlers playing together at Kidz Nova Playgroup classroom" width="600" height="480" />
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="floating-badge floating-badge-1">
+              <div class="floating-badge-icon">⭐</div>
+              <div>
+                <div class="floating-badge-title">4.9 / 5.0 Rating</div>
+                <div class="floating-badge-sub">Over 500+ Happy Parents</div>
+              </div>
+            </div>
+
+            <div class="floating-badge floating-badge-2">
+              <div class="floating-badge-icon">🌿</div>
+              <div>
+                <div class="floating-badge-title">100% Organic Meals</div>
+                <div class="floating-badge-sub">Chef Prepared Daily</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Features Grid -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge-tag badge-purple">
+            <span>✨</span>
+            <span>The Kidz Nova Difference</span>
+          </div>
+          <h2 class="section-title">Designed Specially for Toddler Growth</h2>
+          <p class="section-subtitle">
+            Every room, toy, and activity at Kidz Nova is scientifically curated to spark curiosity, social bonding, and physical coordination.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon-box" style="background: #FFF0F0; color: var(--coral-red);">🧩</div>
+            <h3 class="feature-title">Montessori Sensory Labs</h3>
+            <p class="feature-desc">
+              Hands-on wooden puzzles, tactile boards, and sensory bins that develop fine motor skills and spatial intelligence.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box" style="background: #F0EDFF; color: var(--royal-purple);">🎵</div>
+            <h3 class="feature-title">Music, Rhythm & Movement</h3>
+            <p class="feature-desc">
+              Daily musical expression sessions, percussion instrument jam sessions, and rhythmic dance to stimulate right-brain creativity.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box" style="background: #ECFDF5; color: #10B981;">🌳</div>
+            <h3 class="feature-title">Safe Eco Outdoor Park</h3>
+            <p class="feature-desc">
+              Soft synthetic grass, splash play fountains, mini wooden climbing towers, and organic toddler vegetable gardens.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-box" style="background: #FEF3C7; color: #D97706;">📹</div>
+            <h3 class="feature-title">Live Parent CCTV Streaming</h3>
+            <p class="feature-desc">
+              Check in on your child anytime via our secure parent mobile app with HD live video streaming & daily activity logs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs & Curriculum Section -->
+    <section class="section-padding" id="programs">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge-tag badge-mint">
+            <span>🎓</span>
+            <span>Tailored Learning Horizons</span>
+          </div>
+          <h2 class="section-title">Our Specialized Age Programs</h2>
+          <p class="section-subtitle">
+            Nurturing age-appropriate development through structured play, creative inquiry, and joyful milestone achievements.
+          </p>
+        </div>
+
+        <div class="programs-grid">
+          <!-- Program 1 -->
+          <div class="program-card">
+            <div class="program-header pg-1">
+              <span class="program-age-tag">1.5 - 2.5 Years</span>
+              <h3 class="program-name">Playgroup Toddlers</h3>
+              <div class="program-tagline">Sensory Exploration & First Words</div>
+            </div>
+            <div class="program-body">
+              <ul class="program-list">
+                <li><span class="check-icon">✓</span> Sensory Bin & Water Play</li>
+                <li><span class="check-icon">✓</span> Rhyme & Story Circle</li>
+                <li><span class="check-icon">✓</span> Basic Shape & Color Discovery</li>
+                <li><span class="check-icon">✓</span> Potty Training Support</li>
+              </ul>
+              <div class="program-footer">
+                <span class="program-timing">🕒 8:30 AM - 11:30 AM</span>
+                <button class="btn-secondary open-program-modal" data-program="playgroup">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Program 2 -->
+          <div class="program-card">
+            <div class="program-header pg-2">
+              <span class="program-age-tag">2.5 - 3.5 Years</span>
+              <h3 class="program-name">Nursery Explorers</h3>
+              <div class="program-tagline">Vocabulary & Social Confidence</div>
+            </div>
+            <div class="program-body">
+              <ul class="program-list">
+                <li><span class="check-icon">✓</span> Phonics Sounds & Alphabet Fun</li>
+                <li><span class="check-icon">✓</span> Finger Painting & Craft Easel</li>
+                <li><span class="check-icon">✓</span> Social Sharing & Group Play</li>
+                <li><span class="check-icon">✓</span> Counting 1 to 20 with Objects</li>
+              </ul>
+              <div class="program-footer">
+                <span class="program-timing">🕒 8:30 AM - 12:30 PM</span>
+                <button class="btn-secondary open-program-modal" data-program="nursery">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Program 3 -->
+          <div class="program-card">
+            <div class="program-header pg-3">
+              <span class="program-age-tag">3.5 - 4.5 Years</span>
+              <h3 class="program-name">Junior KG Adventurers</h3>
+              <div class="program-tagline">Early Literacy & STEM Inquiry</div>
+            </div>
+            <div class="program-body">
+              <ul class="program-list">
+                <li><span class="check-icon">✓</span> Early Reading & Sight Words</li>
+                <li><span class="check-icon">✓</span> Mini Science & Magnet Experiments</li>
+                <li><span class="check-icon">✓</span> Pre-Writing Strokes & Tracing</li>
+                <li><span class="check-icon">✓</span> Foreign Language Introduction</li>
+              </ul>
+              <div class="program-footer">
+                <span class="program-timing">🕒 8:30 AM - 1:00 PM</span>
+                <button class="btn-secondary open-program-modal" data-program="juniorKg">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Program 4 -->
+          <div class="program-card">
+            <div class="program-header pg-4">
+              <span class="program-age-tag">4.5 - 5.5 Years</span>
+              <h3 class="program-name">Senior KG Scholars</h3>
+              <div class="program-tagline">Grade 1 School Readiness</div>
+            </div>
+            <div class="program-body">
+              <ul class="program-list">
+                <li><span class="check-icon">✓</span> Full Sentence Reading & Writing</li>
+                <li><span class="check-icon">✓</span> Addition, Subtraction & Math Logic</li>
+                <li><span class="check-icon">✓</span> Smart Tablet Educational Games</li>
+                <li><span class="check-icon">✓</span> Stage Drama & Public Speaking</li>
+              </ul>
+              <div class="program-footer">
+                <span class="program-timing">🕒 8:30 AM - 1:30 PM</span>
+                <button class="btn-secondary open-program-modal" data-program="seniorKg">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kids Interactive Zone (Unique Feature!) -->
+    <section class="section-padding" id="playground">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge-tag badge-yellow">
+            <span>🎮</span>
+            <span>Interactive Toddler Playground</span>
+          </div>
+          <h2 class="section-title">Play & Learn Right on the Website!</h2>
+          <p class="section-subtitle">
+            Try out our interactive audio alphabet flashcards and digital toddler painting canvas created for kids and parents.
+          </p>
+        </div>
+
+        <div class="playground-container">
+          <!-- Interactive Sound Flashcards -->
+          <div style="margin-bottom: 48px;">
+            <h3 style="text-align: center; margin-bottom: 20px; font-size: 1.6rem; color: var(--royal-purple);">
+              🔊 Click a Card to Hear Audio & Words!
+            </h3>
+            <div class="flashcard-grid" id="flashcardGrid">
+              <!-- Dynamically Populated by script.js -->
+            </div>
+          </div>
+
+          <hr style="border: 0; border-top: 2px dashed var(--border-subtle); margin: 40px 0;" />
+
+          <!-- Digital Painter Canvas -->
+          <div class="canvas-wrapper">
+            <h3 style="font-size: 1.6rem; color: var(--coral-red);">
+              🎨 Toddler Finger Painting Corner
+            </h3>
+            <div class="canvas-toolbar">
+              <span>Choose Brush Color:</span>
+              <div class="color-picker-dot active" style="background: #FF6B6B;" data-color="#FF6B6B"></div>
+              <div class="color-picker-dot" style="background: #6C5CE7;" data-color="#6C5CE7"></div>
+              <div class="color-picker-dot" style="background: #00CEC9;" data-color="#00CEC9"></div>
+              <div class="color-picker-dot" style="background: #FFC048;" data-color="#FFC048"></div>
+              <div class="color-picker-dot" style="background: #2ECC71;" data-color="#2ECC71"></div>
+              <div class="color-picker-dot" style="background: #FD79A8;" data-color="#FD79A8"></div>
+              <button class="btn-secondary" id="clearCanvasBtn" style="padding: 8px 18px; font-size: 0.9rem;">Clear Canvas 🧹</button>
+            </div>
+
+            <canvas id="kidsCanvas" width="700" height="360"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Day in the Life Stepper Journey -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge-tag badge-purple">
+            <span>⏰</span>
+            <span>A Typical Day at Kidz Nova</span>
+          </div>
+          <h2 class="section-title">The Toddler Daily Journey</h2>
+          <p class="section-subtitle">
+            A balanced schedule of active play, quiet learning, healthy mealtime, and socialization.
+          </p>
+        </div>
+
+        <div class="timeline-stepper">
+          <div class="timeline-step">
+            <div class="step-icon">🌅</div>
+            <div class="step-time">8:30 AM</div>
+            <div class="step-title">Welcome & Circle Time</div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-icon">🧩</div>
+            <div class="step-time">9:30 AM</div>
+            <div class="step-title">Montessori Sensory Play</div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-icon">🍎</div>
+            <div class="step-time">11:00 AM</div>
+            <div class="step-title">Organic Snack Break</div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-icon">🌳</div>
+            <div class="step-time">11:45 AM</div>
+            <div class="step-title">Outdoor Splash & Park</div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-icon">📚</div>
+            <div class="step-time">12:30 PM</div>
+            <div class="step-title">Storytelling & Pickup</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Campus & Facilities Showcase -->
+    <section class="section-padding" id="facilities">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge-tag badge-coral">
+            <span>🏛️</span>
+            <span>World Class Infrastructure</span>
+          </div>
+          <h2 class="section-title">Explore Our Kid-Safe Campus</h2>
+          <p class="section-subtitle">
+            Ergonomically designed for little explorers with rounded furniture edges, non-toxic materials, and temperature-controlled spaces.
+          </p>
+        </div>
+
+        <div class="facilities-grid">
+          <div class="facility-card">
+            <img src="assets/sensory.jpg" alt="Indoor Sensory Play Laboratory" width="400" height="340" />
+            <div class="facility-overlay">
+              <h3 class="facility-name">Sensory Exploration Room</h3>
+              <p class="facility-desc">Soft foam blocks, tactile sensory walls, ambient fiber-optic lights for calming exploration.</p>
+            </div>
+          </div>
+
+          <div class="facility-card">
+            <img src="assets/outdoor.jpg" alt="Safe Outdoor Toddler Playground" width="400" height="340" />
+            <div class="facility-overlay">
+              <h3 class="facility-name">Eco Playground & Water Park</h3>
+              <p class="facility-desc">Padded turf ground, wooden climbing structures, and safe toddler splash fountains.</p>
+            </div>
+          </div>
+
+          <div class="facility-card" style="background: linear-gradient(135deg, #6C5CE7, #A29BFE); display: flex; align-items: center; justify-content: center; text-align: center; color: white; padding: 32px;">
+            <div>
+              <div style="font-size: 3.5rem; margin-bottom: 16px;">🛌</div>
+              <h3 style="font-size: 1.8rem; margin-bottom: 12px; color: #FFFFFF;">Nap & Hygiene Pods</h3>
+              <p style="opacity: 0.9;">Individual sanitized nap cots, organic cotton bedding, and child-height restroom facilities with 24/7 dedicated attendants.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tuition Fee Estimator Calculator -->
+    <section class="section-padding" id="calculator">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge-tag badge-mint">
+            <span>💵</span>
+            <span>Transparent Pricing</span>
+          </div>
+          <h2 class="section-title">Interactive Tuition Fee Calculator</h2>
+          <p class="section-subtitle">
+            Estimate your child's monthly tuition based on program selection and custom add-on services.
+          </p>
+        </div>
+
+        <div class="calculator-card">
+          <div class="calc-group">
+            <label class="calc-label" for="calcProgram">1. Select Core Academic Program:</label>
+            <select class="form-select" id="calcProgram" style="width: 100%;">
+              <option value="380">Playgroup (1.5 - 2.5 yrs) - $380 / month</option>
+              <option value="420">Nursery (2.5 - 3.5 yrs) - $420 / month</option>
+              <option value="450">Junior KG (3.5 - 4.5 yrs) - $450 / month</option>
+              <option value="480">Senior KG (4.5 - 5.5 yrs) - $480 / month</option>
+            </select>
+          </div>
+
+          <div class="calc-group">
+            <label class="calc-label">2. Optional Parent Add-on Services:</label>
+            <div class="checkbox-group">
+              <label class="custom-checkbox">
+                <input type="checkbox" id="calcMeals" />
+                <span>🍎 Organic Daily Snacks ($80/mo)</span>
+              </label>
+
+              <label class="custom-checkbox">
+                <input type="checkbox" id="calcTransport" />
+                <span>🚌 Air-conditioned School Bus ($100/mo)</span>
+              </label>
+
+              <label class="custom-checkbox">
+                <input type="checkbox" id="calcDaycare" />
+                <span>🕓 Extended Evening Daycare ($150/mo)</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="calc-total-box">
+            <div>
+              <div style="font-size: 0.95rem; opacity: 0.9;">Estimated Total Tuition:</div>
+              <div class="calc-total-val" id="totalFeeVal">$380</div>
+            </div>
+            <a href="#admissions" class="btn-primary" style="background: #FFFFFF; color: var(--royal-purple);">
+              <span>Enroll at this Rate</span>
+              <span>➡️</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge-tag badge-coral">
+            <span>❤️</span>
+            <span>Parent Love & Reviews</span>
+          </div>
+          <h2 class="section-title">What Parents Say About Us</h2>
+          <p class="section-subtitle">
+            Hear from families who have watched their children blossom at Kidz Nova Playgroup.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+            <p class="testimonial-text">
+              My 2-year-old son used to be very shy. Within just 3 weeks at Kidz Nova, he started speaking full sentences, sharing toys, and singing songs at home! The teachers are extraordinarily loving.
+            </p>
+            <div class="parent-info">
+              <div class="parent-avatar">SM</div>
+              <div>
+                <div class="parent-name">Sarah Miller</div>
+                <div class="parent-role">Mother of Liam (Playgroup)</div>
+                <div class="star-rating">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+            <p class="testimonial-text">
+              The live CCTV app gives me complete peace of mind while I'm at work. The facilities, sensory room, and organic meals are top-tier. Worth every single penny!
+            </p>
+            <div class="parent-info">
+              <div class="parent-avatar" style="background: var(--royal-purple);">DR</div>
+              <div>
+                <div class="parent-name">David Roberts</div>
+                <div class="parent-role">Father of Emma (Nursery)</div>
+                <div class="star-rating">★★★★★</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+            <p class="testimonial-text">
+              Kidz Nova prepares kids so well for primary school! My daughter loved the Junior STEM experiments and finger painting. We are so proud to be part of this community.
+            </p>
+            <div class="parent-info">
+              <div class="parent-avatar" style="background: var(--sky-blue);">AP</div>
+              <div>
+                <div class="parent-name">Ananya Patel</div>
+                <div class="parent-role">Mother of Aarav (Junior KG)</div>
+                <div class="star-rating">★★★★★</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Admission Application Form Section -->
+    <section class="section-padding" id="admissions">
+      <div class="container">
+        <div class="text-center">
+          <div class="badge-tag badge-purple">
+            <span>📝</span>
+            <span>Join Our Family</span>
+          </div>
+          <h2 class="section-title">Online Admission Application</h2>
+          <p class="section-subtitle">
+            Secure your child's spot for the upcoming term. Complete the 2-minute application below!
+          </p>
+        </div>
+
+        <div class="admission-box">
+          <form id="admissionForm">
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="form-label" for="parentName">Parent / Guardian Full Name *</label>
+                <input type="text" id="parentName" class="form-input" placeholder="e.g. Jessica Smith" required />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="parentPhone">Mobile Phone Number *</label>
+                <input type="tel" id="parentPhone" class="form-input" placeholder="+1 (555) 000-0000" required />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="parentEmail">Email Address *</label>
+                <input type="email" id="parentEmail" class="form-input" placeholder="parent@example.com" required />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="childName">Child's Full Name *</label>
+                <input type="text" id="childName" class="form-input" placeholder="e.g. Noah Smith" required />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="childAge">Child's Age / Date of Birth *</label>
+                <input type="text" id="childAge" class="form-input" placeholder="e.g. 2 Years 4 Months" required />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="admissionProgram">Desired Program *</label>
+                <select id="admissionProgram" class="form-select" required>
+                  <option value="playgroup">Playgroup (1.5 - 2.5 yrs)</option>
+                  <option value="nursery">Nursery (2.5 - 3.5 yrs)</option>
+                  <option value="juniorKg">Junior KG (3.5 - 4.5 yrs)</option>
+                  <option value="seniorKg">Senior KG (4.5 - 5.5 yrs)</option>
+                </select>
+              </div>
+
+              <div class="form-group full-width">
+                <label class="form-label" for="parentNotes">Special Instructions / Medical / Dietary Notes</label>
+                <textarea id="parentNotes" class="form-textarea" rows="3" placeholder="Tell us anything special about your child..."></textarea>
+              </div>
+
+              <div class="form-group full-width text-center" style="margin-top: 16px;">
+                <button type="submit" class="btn-primary" style="width: 100%; max-width: 400px; margin: 0 auto;">
+                  <span>Submit Application</span>
+                  <span>🚀</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-icon">🎈</div>
+            <div class="brand-name">Kidz<span>Nova</span></div>
+          </div>
+          <p>
+            Kidz Nova Playgroup & Early Learning Academy is dedicated to providing high-quality, inspiring, and safe toddler education.
+          </p>
+          <div style="display: flex; gap: 14px; font-size: 1.4rem;">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="YouTube">▶️</a>
+            <a href="#" aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#programs">Our Programs</a></li>
+            <li><a href="#playground">Kids Zone</a></li>
+            <li><a href="#facilities">Campus Facilities</a></li>
+            <li><a href="#admissions">Apply Online</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Programs</h4>
+          <ul class="footer-links">
+            <li><a href="#programs">Playgroup (1.5 - 2.5y)</a></li>
+            <li><a href="#programs">Nursery (2.5 - 3.5y)</a></li>
+            <li><a href="#programs">Junior KG (3.5 - 4.5y)</a></li>
+            <li><a href="#programs">Senior KG (4.5 - 5.5y)</a></li>
+            <li><a href="#programs">Daycare Services</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact & Location</h4>
+          <p style="color: var(--text-muted); margin-bottom: 12px;">📍 124 Sunshine Boulevard, Nova Edu Zone</p>
+          <p style="color: var(--text-muted); margin-bottom: 12px;">📞 Hotline: +1 (800) 555-KIDZ</p>
+          <p style="color: var(--text-muted); margin-bottom: 12px;">✉️ admissions@kidznova.edu</p>
+          <p style="color: var(--text-muted);">🕒 Mon - Fri: 8:00 AM - 5:30 PM</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Kidz Nova Playgroup & Preschool Academy. All rights reserved. Designed for Excellence.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Program Details Modal -->
+  <div class="modal-overlay" id="programModal" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="closeModalBtn" aria-label="Close modal">&times;</button>
+      <h3 id="modalTitle" style="font-size: 1.8rem; margin-bottom: 16px; color: var(--coral-red);">Program Details</h3>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Admission Confirmation Modal -->
+  <div class="modal-overlay" id="confirmModal" role="dialog" aria-modal="true">
+    <div class="modal-card text-center">
+      <div style="font-size: 4rem; margin-bottom: 16px;">🎉</div>
+      <h3 style="font-size: 2rem; margin-bottom: 12px; color: var(--royal-purple);">Application Submitted!</h3>
+      <div id="confirmDetails" style="margin-bottom: 24px;"></div>
+      <button class="btn-primary" id="confirmCloseBtn">Done</button>
+    </div>
+  </div>
+
+  <!-- Floating Quick Actions Widget -->
+  <div class="floating-widget">
+    <a href="https://wa.me/" target="_blank" class="float-action-btn float-whatsapp" title="Chat on WhatsApp" aria-label="Chat on WhatsApp">💬</a>
+    <a href="tel:+18005555439" class="float-action-btn float-call" title="Call Admissions" aria-label="Call Admissions">📞</a>
+  </div>
+
+  <!-- JavaScript Engine -->
+  <script src="script.js"></script>
+</body>
+</html>
