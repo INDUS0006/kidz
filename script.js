@@ -1159,7 +1159,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- 6. Tuition Fee Estimator Calculator ---
   const feeProgramSelect = document.getElementById('calcProgram');
   const feeMealsCheck = document.getElementById('calcMeals');
-  const feeTransportCheck = document.getElementById('calcTransport');
   const feeDaycareCheck = document.getElementById('calcDaycare');
   const totalFeeVal = document.getElementById('totalFeeVal');
 
@@ -1167,7 +1166,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!feeProgramSelect || !totalFeeVal) return;
     let base = parseInt(feeProgramSelect.value) || 380;
     if (feeMealsCheck && feeMealsCheck.checked) base += 80;
-    if (feeTransportCheck && feeTransportCheck.checked) base += 100;
     if (feeDaycareCheck && feeDaycareCheck.checked) base += 150;
 
     totalFeeVal.innerText = `$${base}`;
@@ -1179,7 +1177,7 @@ document.addEventListener('DOMContentLoaded', () => {
       playPopSound();
     });
   }
-  [feeMealsCheck, feeTransportCheck, feeDaycareCheck].forEach(chk => {
+  [feeMealsCheck, feeDaycareCheck].forEach(chk => {
     if (chk) chk.addEventListener('change', () => {
       calculateFee();
       playPopSound();
